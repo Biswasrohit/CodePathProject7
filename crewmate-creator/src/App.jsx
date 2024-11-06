@@ -10,18 +10,33 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <div className="container">
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/create">Create a Crewmate</Link>
-          <Link to="/gallery">Crewmate Gallery</Link>
-        </nav>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/create" element={<CreateCrewmate />} />
-          <Route path="/gallery" element={<CrewGallery />} />
-          <Route path="/crewmate/:id" element={<CrewDetails />} />
-        </Routes>
+      <div className="app-container">
+        {/* Sidebar Navigation */}
+        <aside className="sidebar">
+          <nav>
+            <ul>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/create">Create a Crewmate!</Link>
+              </li>
+              <li>
+                <Link to="/gallery">Crewmate Gallery</Link>
+              </li>
+            </ul>
+          </nav>
+        </aside>
+
+        {/* Main Content Area */}
+        <main className="content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/create" element={<CreateCrewmate />} />
+            <Route path="/gallery" element={<CrewGallery />} />
+            <Route path="/crewmate/:id" element={<CrewDetails />} />
+          </Routes>
+        </main>
       </div>
     </Router>
   );
