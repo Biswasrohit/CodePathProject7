@@ -39,7 +39,7 @@ function CrewGallery() {
     setStats({
       total,
       percentageByCategory,
-      successScore: successScore.toFixed(1), // Save success as percentage
+      successScore: successScore.toFixed(1),
     });
   };
 
@@ -47,7 +47,6 @@ function CrewGallery() {
     <div>
       <h2>Your Crewmate Gallery</h2>
 
-      {/* Display summary statistics */}
       <div className="stats">
         <p>Total Crewmates: {stats.total}</p>
         {Object.entries(stats.percentageByCategory || {}).map(

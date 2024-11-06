@@ -1,4 +1,3 @@
-// src/App.jsx
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
@@ -11,7 +10,6 @@ function App() {
   return (
     <Router>
       <div className="app-container">
-        {/* Sidebar Navigation */}
         <aside className="sidebar">
           <nav>
             <ul>
@@ -28,7 +26,6 @@ function App() {
           </nav>
         </aside>
 
-        {/* Main Content Area */}
         <main className="content">
           <Routes>
             <Route path="/" element={<Home />} />

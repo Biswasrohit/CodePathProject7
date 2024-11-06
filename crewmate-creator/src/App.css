@@ -40,24 +40,24 @@ body {
   list-style: none;
   width: 100%;
   padding: 0;
-  text-align: center; /* Center-align links */
+  text-align: center;
 }
 
 .sidebar nav ul li {
-  margin: 10px 0; /* Space between links */
+  margin: 10px 0;
 }
 
 .sidebar nav ul li a {
   color: #ffffff;
   text-decoration: none;
   font-size: 18px;
-  font-weight: normal; /* Make font-weight normal for a minimalistic look */
+  font-weight: normal;
   display: block;
   transition: color 0.3s;
 }
 
 .sidebar nav ul li a:hover {
-  color: #d3d3d3; /* Change text color slightly on hover for visual feedback */
+  color: #d3d3d3;
 }
 
 .content {
@@ -166,8 +166,8 @@ li a:hover {
 }
 
 .crewmates-image {
-  max-width: 40%; /* Adjust width as needed */
+  max-width: 40%;
   height: auto;
   margin-top: 20px;
-  border-radius: 10px; /* Optional rounded corners */
+  border-radius: 10px;
 }
