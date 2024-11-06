@@ -29,9 +29,7 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://i.imgur.com/d4TsRJK.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-[Kap](https://getkap.co/) for macOS
-
-GIF created with ...
+GIF created with [Kap](https://getkap.co/) for macOS
 
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
